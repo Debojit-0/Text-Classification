@@ -20,7 +20,7 @@ https://github.com/Debojit-0/Text-Classification/assets/77208481/883b285e-25d0-4
 
 
 # INFO
-Author: Debojit Mandal
-Data Scientist
-Email: debojit.mandal@gmail.com
+. Author: Debojit Mandal
+. Data Scientist
+. Email: debojit.mandal@gmail.com
 

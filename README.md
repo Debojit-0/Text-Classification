@@ -1,8 +1,8 @@
 # Text-Classification
 
 #Workflows
-Update config.yaml
-Update params.yaml
+1- Update config.yaml
+2 - Update params.yaml
 Update entity
 Update the configuration manager in src config
 update the conponents

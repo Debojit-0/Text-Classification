@@ -3,7 +3,7 @@
 #Workflows
 Update config.yaml
 Update params.yaml
-Update entityy
+Update entity
 Update the configuration manager in src config
 update the conponents
 update the pipeline

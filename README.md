@@ -1,19 +1,19 @@
 # Text-Classification
 
-#Workflows
-1- Update config.yaml 
+# Workflows
 
 
 
-2 - Update params.yaml
-Update entity
-Update the configuration manager in src config
-update the conponents
-update the pipeline
-update the main.py
-update the app.py
+1.  Update config.yaml 
+2.  Update params.yaml
+3.  Update entity
+4.  Update the configuration manager in src config
+5.  update the conponents
+6.  update the pipeline
+7.  update the main.py
+8.  update the app.py
 
-#INFO
+# INFO
 Author: Debojit Mandal
 Data Scientist
 Email: debojit.mandal@gmail.com

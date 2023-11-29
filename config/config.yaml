@@ -1,0 +1,39 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/Debojit-0/Text-Classification/raw/main/bbc-text.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+  root_dir1: artifacts/data_transformation
+
+data_cleaning:
+  root_dir: artifacts/data_ingestion
+  data_files: artifacts/data_ingestion/data.csv
+
+
+
+data_validation:
+  root_dir: artifacts/data_validation
+  STATUS_FILE: artifacts/data_validation/status.txt
+  ALL_REQUIRED_FILES: ["train_data.csv", "test_data.csv", "validation_data.csv"]
+
+
+model_trainer:
+  root_dir: artifacts/model_trainer
+  data_path: artifacts/data_ingestion/cleaned_data.csv
+  tokenizer_name: distilbert-base-uncased
+  data_path1: artifacts/model_trainer/bert
+  data_path2: artifacts/model_trainer/bert_tokenizer
+
+
+
+
+
+
+    
+
+
+
+

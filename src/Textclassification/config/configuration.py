@@ -2,6 +2,7 @@ from src.Textclassification.constants import *
 from src.Textclassification.utils.common import read_yaml, create_directories
 from src.Textclassification.entity import DataIngestionConfig
 from src.Textclassification.entity  import DataCleaningConfig
+from src.Textclassification.entity  import DataValidationConfig
 from src.Textclassification.entity  import ModelTrainerConfig
 from pathlib import Path
                                  
@@ -51,6 +52,18 @@ class ConfigurationManager:
 
         return data_cleaning_config
     
+    def get_data_validation_config(self) -> DataValidationConfig:
+        config = self.config.data_validation
+
+        create_directories([config.root_dir])
+
+        data_validation_config = DataValidationConfig(
+            root_dir=config.root_dir,
+            STATUS_FILE=config.STATUS_FILE,
+            ALL_REQUIRED_FILES=config.ALL_REQUIRED_FILES,
+        )
+
+        return data_validation_config
 
      
 
